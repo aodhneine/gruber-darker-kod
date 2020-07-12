@@ -1,0 +1,24 @@
+{
+  "name": "gruber-darker-kod",
+  "displayName": "gruber-darker-kod",
+  "description": "Port of gruber-darker-theme by Alexey Kutepov to Visual Studio Code.",
+  "version": "0.0.1-alpha",
+  "license": "MIT",
+  "publisher": "aodhneine",
+  "repository": "https://git.sr.ht/~aodhnait/gruber-darker-kod",
+  "engines": {
+    "vscode": "^1.47.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gruber Darker Kod",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gruber-darker-kod-color-theme.json"
+      }
+    ]
+  }
+}
