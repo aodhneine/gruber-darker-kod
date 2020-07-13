@@ -34,6 +34,17 @@
       }
     },
     {
+      "name": "Preprocessor Macros",
+      "scope": [
+        "punctuation.definition.directive",
+        "keyword.control.directive",
+      ],
+      "settings": {
+        "foreground": "#95a99f",
+        "fontStyle": ""
+      }
+    },
+    {
       "name": "Variables",
       "scope": [
         "variable",
@@ -65,9 +76,8 @@
     {
       "name": "Keyword, Storage",
       "scope": [
-        "keyword",
         "storage.type",
-        "storage.modifier"
+        "keyword",
       ],
       "settings": {
         "foreground": "#95a99f",
@@ -95,7 +105,11 @@
         "meta.tag",
         "punctuation.definition.tag",
         "keyword.other.template",
-        "keyword.other.substitution"
+        "keyword.other.substitution",
+        "storage.modifier",
+        "storage.type.struct",
+        "storage.type.class",
+        "storage.type.modifier.access",
       ],
       "settings": {
         "foreground": "#ffdd33",
@@ -146,9 +160,18 @@
       }
     },
     {
-      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "name": "Numbers, Operators",
       "scope": [
         "constant.numeric",
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#f4f4ff"
+      }
+    },
+    {
+      "name": "Constant, Function Argument, Tag Attribute, Embedded",
+      "scope": [
         "constant.language",
         "support.constant",
         "constant.character",
@@ -171,7 +194,8 @@
         "markup.heading",
         "markup.inserted.git_gutter",
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-        "punctuation.definition.string"
+        "punctuation.definition.string",
+        "constant.other.placeholder.c"
       ],
       "settings": {
         "foreground": "#73c936"
@@ -183,14 +207,12 @@
         "entity.name",
         "support.type",
         "support.class",
-        "support.orther.namespace.use.php",
-        "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#9e95c7"
+        "foreground": "#95a99f"
       }
     },
     {
