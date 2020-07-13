@@ -2,7 +2,7 @@
   "name": "gruber-darker-kod",
   "displayName": "gruber-darker-kod",
   "description": "Port of gruber-darker-theme by Alexey Kutepov to Visual Studio Code.",
-  "version": "0.0.1-alpha",
+  "version": "0.0.2-alpha",
   "license": "MIT",
   "publisher": "aodhneine",
   "repository": "https://git.sr.ht/~aodhnait/gruber-darker-kod",
