@@ -3,23 +3,41 @@
   "type": "dark",
   "colors": {
     "foreground": "#e4e4ef",
-    "focusBorder": "#9e95c7",
-    "button.background": "#9e95c7",
-    "button.foreground": "#282828",
-    "textLink.foreground": "#96a6c8",
-    "statusBar.background": "#282828",
-    "statusBar.noFolderBackground": "#101010",
-    "statusBar.debuggingBackground": "#cc8c3c",
     "activityBar.activeBackground": "#282828",
+    "activityBar.activeBorder": "#e4e4ef",
+    "activityBar.activeFocusBorder": "#e4e4ef",
     "activityBar.background": "#282828",
     "activityBar.foreground": "#e4e4ef",
-    "activityBar.activeFocusBorder": "#e4e4ef",
-    "activityBar.activeBorder": "#e4e4ef",
-    "editor.background": "#181818",
-    "editor.foreground": "#e4e4ef",
     "activityBarBadge.background": "#101010",
     "activityBarBadge.foreground": "#e4e4ef",
-    "sideBarTitle.foreground": "#bbbbbb"
+    "button.background": "#9e95c7",
+    "button.foreground": "#282828",
+    "diffEditor.insertedTextBackground": "#73c9363f",
+    "diffEditor.removedTextBackground": "#ff4f583f",
+    "editor.background": "#181818",
+    "editor.foreground": "#e4e4ef",
+    "editor.selectionBackground": "#333333",
+    "editorCursor.background": "#282828",
+    "editorCursor.foreground": "#ffdd33",
+    "editorGutter.addedBackground": "#73c936",
+    "editorGutter.deletedBackground": "#ff4f58",
+    "editorGutter.modifiedBackground": "#9e95c7",
+    "focusBorder": "#9e95c7",
+    "gitDecoration.addedResourceForeground": "#73c936",
+    "gitDecoration.deletedResourceForeground": "#ff4f58",
+    "gitDecoration.modifiedResourceForeground": "#9e95c7",
+    "list.activeSelectionBackground": "#303540",
+    "list.focusBackground": "#303540",
+    "list.hoverBackground": "#303540",
+    "sideBar.background": "#232323",
+    "sideBarSectionHeader.background": "#282828",
+    "sideBarSectionHeader.foreground": "#f4f4ff",
+    "sideBarTitle.foreground": "#e4e4ef",
+    "statusBar.background": "#282828",
+    "statusBar.debuggingBackground": "#cc8c3c",
+    "statusBar.noFolderBackground": "#101010",
+    "textLink.foreground": "#96a6c8",
+    "list.warningForeground": "#ffdd33"
   },
   "tokenColors": [
     {
@@ -305,19 +323,9 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#ffdd33"
+        "foreground": "#96a6c8"
       }
     },
-    /*{
-      "name": "Markdown - Plain",
-      "scope": [
-        "text.html.markdown",
-        "punctuation.definition.list_item.markdown"
-      ],
-      "settings": {
-        "foreground": "#EEFFFF"
-      }
-    },*/
     {
       "name": "Markdown - Punctuation",
       "scope": [
@@ -343,15 +351,6 @@
         "foreground": "#95a99f"
       }
     },
-    /*{
-      "name": "Markdown - Markup Raw Inline Punctuation",
-      "scope": [
-        "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
-      ],
-      "settings": {
-        "foreground": "#65737E"
-      }
-    },*/
     {
       "name": "Markdown - Heading",
       "scope": [
@@ -371,7 +370,6 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        // "foreground": "#f07178"
       }
     },
     {
@@ -382,7 +380,6 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        // "foreground": "#f07178"
       }
     },
     {
@@ -397,7 +394,6 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        // "foreground": "#f07178"
       }
     },
     {
@@ -434,7 +430,7 @@
     {
       "name": "Markdown - Link",
       "scope": [
-        "string.other.link.title.markdown"
+        "string.other.link.title.markdown",
       ],
       "settings": {
         "foreground": "#96a6c8",
@@ -526,6 +522,17 @@
       ],
       "settings": {
         "foreground": "#EEFFFF"
+      }
+    },
+    {
+      "name": "Markup - Image",
+      "scope": [
+        "meta.image.inline",
+        "string.other.link.description.markdown"
+      ],
+      "settings": {
+        "foreground": "#ffdd33",
+        "fontStyle": "bold"
       }
     }
   ]
